@@ -1,3 +1,4 @@
+<project name="phpaes" default="help" basedir=".">
 <target name="install-subversion">
    <echo message="Install dependencies"/>
    <exec dir="${project.basedir}"
@@ -5,3 +6,4 @@
          checkreturn="true"
          passthru="true"/>
 </target>
+</project>
