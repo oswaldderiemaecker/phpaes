@@ -1,7 +1,7 @@
 <target name="install-subversion">
    <echo message="Install dependencies"/>
    <exec dir="${project.basedir}"
-         command="sudo apt-get update && sudo apt-get -y install subversion" 
+         command="sudo apt-get update ; sudo apt-get -y install subversion" 
          checkreturn="true"
          passthru="true"/>
 </target>
